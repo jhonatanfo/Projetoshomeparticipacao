@@ -1,0 +1,695 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Arboreto Parque Itaguaçu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css?id=222" rel="stylesheet">
+<link href="color/default.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92168744-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar-wrapper">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<!-- Responsive navbar -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+				<nav class="pull-left nav-collapse collapse">
+				<ul id="menu-main" class="nav">
+					<li><a class="ativo" title="team" href="#parque">parque itaguaçu</a></li>
+					<li><a title="services" href="#projeto">o projeto</a></li>
+					
+					<li><a title="blog" href="#galeria">galeria de imagens</a></li>
+                    <li><a title="works" href="#implantacao">implantacao</a></li>
+					<li><a title="contact" href="#contato">contato</a></li>
+				</ul>
+				</nav>
+                <nav class="pull-right nav-collapse collapse">
+           	    	<img src="img/telefone.png" alt="" class="telefone"/>
+                    <!-- <a onClick="ga('send', 'event', 'chat', 'clique');" class="chat" href="javascript:abrirChat();"></a> -->
+                     <a onClick="ga('send', 'event', 'chat', 'clique');" class="chat" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href=""></a>
+                </nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header area -->
+<div id="header-wrapper" class="header-slider">
+	<header class="clearfix">
+    	<div class="banner">
+   	    <img class="logo-image" src="img/logo-image.png" alt=""/>
+        <span class="span1 "><img src="img/planta1.png" alt="" width="100%"/></span>
+            <span class="span2 "><img src="img/planta2.png" alt="" width="100%"/></span>
+            <span class="span3 "><img src="img/planta3.png" alt="" width="100%"/></span>
+            <span class="span4 "><img src="img/planta4.png" alt="" width="100%"/></span>
+            
+            <span class="span5"><img src="img/planta5.png" alt="" width="100%"/></span>
+            <span class="span6"><img src="img/planta6.png" alt="" width="100%"/></span>
+            <span class="span7"><img src="img/planta7.png" alt="" width="100%"/></span>
+        </div>	
+  </header>
+</div>
+
+
+<section class="spacer bg1" id="#parque">
+    <div class="container" style="width: 100%;">
+        <div class="row">
+            <div class="col-lg-6 text-right"><img src="img/imagem1.png" class="responsive1" alt=""/></div>
+            <div class="col-lg-6">    
+                <div class="col-lg-12">
+                <h1>perto de tudo que você<br>precisa, mas longe da<br>confusão da cidade </h1>
+                <p class="col-lg-6">Já pensou em morar a 10 minutos da Marginal Tietê, mas longe das loucuras e barulhos da cidade? Seu sonho está dentro do Parque Itaguaçu, zona norte de São Paulo.</p>
+                </div>
+                <div class="col-lg-12">
+                <a href="http://realton.hypnobox.com.br/?controle=Atendimento&acao=index&produto=405&midia=Chat_HotSite">Conheça o Arboreto</a>
+                </div>
+            </div>
+        </div>
+        
+         <div class="container">
+        <div class="row">
+        	<div class="col-lg-6">    
+                <div class="col-lg-12">
+                <h2>Porque morar<br>próximo a natureza?</h2>
+                <p>Além de trazer benefícios à saúde física e mental, morar próximo a natureza proporciona uma nova percepção de vida e qualidade para a mesma. Estar próximo ao meio ambiente motiva a prática de esportes e atividades físicas, assim como o amor e respeito pela natureza.</p>
+                </div>
+            </div>
+        
+            <div class="col-lg-6 text-right"><img src="img/icones.png" alt=""/></div>
+            
+        </div>
+        </div>
+        
+    </div>
+</section>
+<section class="spacer terreno" id="projeto">
+	<img src="img/4000.jpg" alt=""/>
+</section>
+
+
+<section class="spacer apartamento" id="apartamento">
+	<div class="container" style="width: 100%;">
+        <div class="row">
+        	<div class="col-lg-6"></div>
+          	<div class="col-lg-6">
+            <div class="col-lg-6 mobile80">
+            <h1>apartamentos  do<br><i>tamanho do seu sonho</i></h1>
+            <p>Seu sonho está dentro do Parque Itaguaçu! Viva com todo o encanto da  natureza sem sair de São Paulo, longe do barulho e da correria do dia a dia. <br>
+            Tenha muito lazer com áreas comuns entregues equipadas e decoradas: Fitness, Churrasqueira, Salão de Festas, Piscina e Playground.<br>
+            Tudo isso e muito mais a apenas 7 km da Marginal Tietê.<br>
+            Apaixone-se ao abrir a janela todos os dias e se deparar com o seu belo jardim natural!<br>
+            </p>
+            <img src="img/metragem.png" alt=""/>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="spacer galeria"  id="galeria">
+	<div class="container" style="width: 100%;">
+    	<h1>galeria de imagens</h1>
+        <div class="menu-galeria flyIn" >
+        	<a class="ativo" id="reais">Fotos reais</a>
+            <a  id="plantas">plantas</a>
+        </div>
+        <div class="row flyIn" id="lightgallery">
+        	<div data-src="img/galeria/02.JPG" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/02.JPG) no-repeat center / cover;"><a href="img/galeria/02.JPG"><img class="img-responsive hide" src="img/galeria/02.JPG" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/03.JPG" data-sub-html="" data-cat="galeria"  class="col-lg-3 item-galeria reais" style="background: url(img/galeria/03.JPG) no-repeat center / cover;"><a href="img/galeria/03.JPG"><img class="img-responsive hide" src="img/galeria/03.JPG" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/04.JPG" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/04.JPG) no-repeat center / cover;"><a href="img/galeria/04.jpg"><img class="img-responsive hide" src="img/galeria/04.JPG" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/05.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/05.jpg) no-repeat center / cover;"><a href="img/galeria/05.jpg"><img class="img-responsive hide" src="img/galeria/05.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/06.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/06.jpg) no-repeat center / cover;"><a href="img/galeria/06.jpg"><img class="img-responsive hide" src="img/galeria/06.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/07.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/07.jpg) no-repeat center / cover;"><a href="img/galeria/07.jpg"><img class="img-responsive hide" src="img/galeria/07.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/08.JPG" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/08.JPG) no-repeat center / cover;"><a href="img/galeria/08.jpg"><img class="img-responsive hide" src="img/galeria/08.JPG" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/09.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/09.jpg) no-repeat center / cover;"><a href="img/galeria/09.jpg"><img class="img-responsive hide" src="img/galeria/09.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/10.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/10.jpg) no-repeat center / cover;"><a href="img/galeria/10.jpg"><img class="img-responsive hide" src="img/galeria/10.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/11.JPG" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/11.JPG) no-repeat center / cover;"><a href="img/galeria/11.jpg"><img class="img-responsive hide" src="img/galeria/11.JPG" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/12.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/12.jpg) no-repeat center / cover;"><a href="img/galeria/12.jpg"><img class="img-responsive hide" src="img/galeria/12.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            <div data-src="img/galeria/13.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria reais" style="background: url(img/galeria/13.jpg) no-repeat center / cover;"><a href="img/galeria/13.JPG"><img class="img-responsive hide" src="img/galeria/13.jpg" alt="" width="100%"/></a><span></span></div>
+            
+            
+            <div data-src="img/galeria/Planta-100-48m2-v1.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria plantas" style="background: url(img/galeria/Planta-100-48m2-v1.jpg) no-repeat center / cover;"><a href="img/galeria/13.JPG"><img class="img-responsive hide" src="img/galeria/Planta-100-48m2-v1.jpg" alt="" width="100%"/></a><span></span></div>
+            <div data-src="img/galeria/Planta-100-48m2-v2.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria plantas" style="background: url(img/galeria/Planta-100-48m2-v2.jpg) no-repeat center / cover;"><a href="img/galeria/13.JPG"><img class="img-responsive hide" src="img/galeria/Planta-100-48m2-v2.jpg" alt="" width="100%"/></a><span></span></div>
+            <div data-src="img/galeria/Planta-141-26m2.jpg" data-sub-html="" data-cat="galeria" class="col-lg-3 item-galeria plantas" style="background: url(img/galeria/Planta-141-26m2.jpg) no-repeat center / cover;"><a href="img/galeria/13.JPG"><img class="img-responsive hide" src="img/galeria/Planta-141-26m2.jpg" alt="" width="100%"/></a><span></span></div>
+            
+        </div>
+    </div>
+</section>
+
+
+<section class="spacer impla" id="implantacao">
+	<div class="container">
+   	  	<div class="col-lg-6 ">
+            <h1><i>terreno amplo com <br>bosque privativo</i></h1>
+            <p> Mais de <b>4.000m²</b> com bosque privativo integrado a área de lazer e rodeado por mata de preservação permanente! </p>
+            <img src="img/icons2.png" width="500px" alt=""/>
+        </div>
+    </div>
+</section>
+
+<section class="spacer formulario"  id="contato">
+	<div class="container">
+    
+ <div class="col-lg-6 col-xs-offset-3 ">   
+        <form name="enviar" onSubmit="return validaform()" action="class/class.enviar.php" method="post" class="contactForm"> 
+            <div class="row">
+              		<h1>entre em<br><b>contato</b></h1>
+                    <p>Saiba mais sobre este empreendimento que vai mudar sua
+rotina e sua percepção de vida!</p>
+                    <div class="field your-name form-group">
+                        <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp" placeholder="Digite o seu nome completo">
+                    </div>
+                    <div class="field your-email form-group">
+                        <input type="text" class="form-control" id="celular" name="celular"  placeholder="Digite o seu telefone">
+                    </div>   
+                    <div class="field your-email form-group">
+                        <input type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Digite o seu email completo">
+                    </div>          
+                    <div class="field message form-group">
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem"></textarea>
+                    </div>
+                    <center>
+                    <button type="submit" id="enviar" class="btn btn-primary">Enviar</button>
+                    
+                    </center>
+                    <br/>
+              <div class="alert"></div>
+            </div>
+        </form>
+		</div>
+    </div>
+</section>
+
+
+<section class="spacer mapa">
+    <div class="container" style="width: 100%;">
+        <div class="row">
+            <div class="col-lg-12" id="map-interno" style="height: 616px;"></div>
+           
+                <div class="como">
+                 <li class="list-mapa">Av. Wando Henrique Cardim, 190 - Parque Itaguaçu</li>
+     
+                  <a onClick="ga('send', 'event', 'comochegar', 'clique')" class="como-chegar btn-como-chegar"><i></i>Veja como chegar</a>
+                  
+                  
+                  <div class="boxorigem" style="display: none;">
+                    <form action="javascript: void(0);" onsubmit="calcRoute()" class="ng-pristine ng-valid">
+                    <div class="input-group">
+                    <input class="form-control campo-partida" type="text" size="50" value="" id="origem" placeholder="Digite seu local de partida:">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default btn-busca-rota" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </span>
+                    </div>
+                    </form>
+                  </div>
+                  </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="container">
+    	<img src="img/logo-rodape.png" alt=""/>
+<nav class="pull-right nav-collapse collapse">
+        <img src="img/telefone.png" alt="" class="telefone"/>
+        <!-- <a onClick="ga('send', 'event', 'chat', 'clique')" class="chat"  href=""></a> -->
+        <a onClick="ga('send', 'event', 'chat', 'clique');" class="chat" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href=""></a>
+      </nav>
+    </div>
+</footer>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Iniciar Chat</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="margin-top: -20px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+              <form>
+      <div class="modal-body">
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="popup_chat_nome" name="popup_chat_nome" placeholder="Nome:">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="popup_chat_email" name="popup_chat_email" placeholder="E-mail:">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="popup_chat_telefone" name="popup_chat_telefone" placeholder="Telefone:">
+          </div>
+          <div class="alert alert-chat"></div>
+       
+          
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <input type="button" onclick="popupChat();" class="btn btn-primary" value="Enviar" id="botao">
+        <!-- <button type="button" class="btn btn-primary">Enviar</button> -->
+      </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="copy"><a href="http://www.agenciahauze.com.br" target="_blank">By Agência Hauze e </a><a href="http://www.homebrasil.com" target="_blank">HOMEBRASIL</a></div>
+<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/inview.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/custom.js"></script>
+<!-- <script src="contactform/contactform.js"></script> -->
+
+
+   <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDKGKQi_7dt3I85BKSr_mEFpe6lxjzNfQ4"></script>
+    <script type="text/javascript">
+        var locations = [
+          ['<img src="img/foto1.jpg" width="100%" />', -23.444501, -46.670013, 'marker.png']
+        ];
+
+        // Setup the different icons and shadows
+
+        //var iconsLength = icons.length; - 37.92, 151.25
+
+        var directionDisplay;
+        var directionsService = new google.maps.DirectionsService();
+        directionsDisplay = new google.maps.DirectionsRenderer();
+
+        var map = new google.maps.Map(document.getElementById('map-interno'), {
+            center: new google.maps.LatLng(-23.444501, -46.670013),
+            zoom: 14,
+            zoomControl: false,
+            disableDefaultUI: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControl: false,
+            streetViewControl: false,
+            disableDoubleClickZoom: true,
+            scrollwheel: false,
+            panControl: false,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            }
+        });
+
+        directionsDisplay.setMap(map);
+
+        var infowindow = new google.maps.InfoWindow({
+            maxWidth: 160
+        });
+
+        var markers = new Array();
+
+        var iconCounter = 0;
+
+        // Add the markers and infowindows to the map
+        for (var i = 0; i < locations.length; i++) {
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                icon: locations[i][3],
+            });
+
+            markers.push(marker);
+
+        }
+
+        function autoCenter() {
+            //  Create a new viewpoint bound
+            var bounds = new google.maps.LatLngBounds();
+            //  Go through each...
+            for (var i = 0; i < markers.length; i++) {
+                bounds.extend(markers[i].position);
+            }
+            //  Fit these bounds to the map
+            map.fitBounds(bounds);
+        }
+
+            $(".btn-como-chegar").click(function () {
+                $(".boxorigem").css("display", "block");
+            });
+            $(".btn-imprimir").click(function (e) {
+                e.preventDefault();
+                //var trgId = $(this).attr('data-target');
+                //console.log("trgId: " + trgId);
+                var link = $(this).attr('data-link');
+                //console.log("link: " + link);
+                var iframe = $("#impressao iframe");
+                //console.log("iframe: " + iframe);
+                iframe.attr("src", link);
+                iframe.css("height", $(window).height() - 200);
+            });
+
+            function calcRoute() {
+                var start = document.getElementById("origem").value; //"rua claudio soares, 71 - são paulo - sp"; //
+                var end = "Av. Wando Henrique Cardim, 190 - Parque Itaguaçu";
+                var request = {
+                    origin: start,
+                    destination: end,
+                    travelMode: google.maps.TravelMode.DRIVING
+                };
+
+                directionsService.route(request, function (result, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        directionsDisplay.setDirections(result);
+                    } else {
+                        alert(status);
+                    }
+
+                    //document.getElementById('map').style.visibility = 'visible';
+                });
+            }
+	</script>
+    
+    
+    
+<script type="text/javascript">
+$(document).ready(function(){   
+	$('#lightgallery').lightGallery({
+		thumbnail: true,
+		hash: true,
+		galleryId: 1
+	});
+	$("#reais").click(function(){
+		$(".plantas").hide();
+		$(".reais").show();
+	});
+	$("#plantas").click(function(){
+		$(".reais").hide();
+		$(".plantas").show();
+	});
+});
+	
+
+      /*Validacao*/
+function validaform(){
+
+        $(".alert").removeClass('alert-danger');
+        $(".alert").removeClass('alert-success');
+
+        $(".alert").addClass('alert-danger');
+        $(".alert").html("Carregando...");
+
+
+  d=document.enviar;
+  if(d.nome.value==""){
+    $(".alert").html("O campo Nome é obrigatório!");
+    d.nome.focus();
+    return false;
+  }
+  
+  if(d.celular.value==""){
+    $(".alert").html("O campo Telefone é obrigatório!");
+    d.celular.focus();
+    return false;
+  }
+
+
+
+  if(d.email.value == ""){
+    $(".alert").html("O campo E-mail deve ser preenchido!");
+    d.email.focus();
+    return false;
+  }
+   else if( !validateEmail( d.email.value ) ) {
+    $(".alert").html("O campo E-mail deve ser preenchido corretamente!");
+    d.email.focus();
+        return false;
+    }
+  
+  
+  if(d.mensagem.value==""){
+    $(".alert").html("O campo Comentário é obrigatório!");
+    d.mensagem.focus();
+    return false;
+  }
+
+
+    $(".alert").html("Carregando...");
+    $.post("class/class.enviar.php", {nome: d.nome.value, celular: d.celular.value, email: d.email.value, mensagem: d.mensagem.value},
+
+    function(resposta){
+            $(".alert").removeClass('alert-danger');
+            
+                if (resposta=="E-mail enviado com sucesso!")
+                {
+                    $(".alert").html(resposta);  
+                    $(".alert").addClass('alert-success');
+                }
+                else
+                {
+                    $(".alert").html(resposta);  
+                    $(".alert").addClass('alert-danger');
+                }
+     }, "html");
+
+
+  return false;
+}
+
+/*Verificando e-mail*/
+function valida_form (){
+  var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+  if(!filter.test(document.getElementById("email").value)){
+    alert('Por favor, digite o email corretamente');
+    document.getElementById("email").focus();
+  return false
+  }
+}
+
+function validateEmail(sEmail) {
+    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    if( filter.test(sEmail)) {
+            return true;
+    }
+    return false;
+}
+
+
+function abrirChat_old()
+{
+        var width = 470;
+    var height = 550;
+    var left = 99;
+    var top = 99;
+    var URL = 'http://realton.hypnobox.com.br/?controle=Atendimento&acao=index&produto=405&midia=Chat_HotSite'; 
+
+
+       window.open(URL, 'janela', 'width=' + width + ', height=' + height + ', top=' + top + ', left=' + left + ', scrollbars=no, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no');
+     
+}
+        
+function popupChat() {
+	$('.alert-chat').show();
+    $('.alert-chat').html("Carregando...");
+    $(".alert-chat").addClass("alert-default");
+
+        var nome = $('#popup_chat_nome');
+        var email = $('#popup_chat_email');
+        var telefone = $('#popup_chat_telefone');
+
+        if (nome.val() == '') {
+            nome.css('border', '1px solid red');
+            nome.focus();
+            $(".alert-chat").html('Favor preencher o campo Nome!');
+            $(".alert-chat").addClass("alert-danger");
+
+            return false;
+        } else {
+            nome.css('border', '1px solid #818181');
+        }
+        if (email.val() == '') {
+            email.css('border', '1px solid red');
+            email.focus();
+            $(".alert-chat").html('Favor preencher o campo E-mail!');
+            $(".alert-chat").addClass("alert-danger");
+            return false;
+        } else {
+            email.css('border', '1px solid #818181');
+        }
+        if (!validateEmail(email.val())) {
+            email.css('border', '1px solid red');
+            email.focus();
+            $(".alert-chat").html('Favor preencher o campo E-mail corretamente!');
+            $(".alert-chat").addClass("alert-danger");
+            return false;
+        } else {
+            email.css('border', '1px solid #818181');
+        }
+        if (telefone.val() == '') {
+            telefone.css('border', '1px solid red');
+            telefone.focus();
+            $(".alert-chat").html('Favor preencher o campo E-mail!');
+            $(".alert-chat").addClass("alert-danger");
+            return false;
+        } else {
+            telefone.css('border', '1px solid #818181');
+        }
+
+
+    $.ajax({
+        url: "enviachat.php",
+        global: false,
+        type: "POST",
+        data: ({
+            nome: nome.val(),
+            telefone: telefone.val(),
+            email: email.val(),
+            ajax : true
+        }),
+        dataType: "html",
+        success: function(msg){
+            var obj = jQuery.parseJSON(msg);
+            if (obj.success == true)
+            {
+                //if ( typeof dataLayer !== "undefined" ) {
+                //    dataLayer.push({'event': 'chat/sucesso-botao-de-enviar'});
+                //}
+                $('.alert-chat').html("Obrigado, agora é só aguardar.");
+                $(".alert-chat").addClass("alert-success");
+                //aguarda 2 segundos (2000) para fechar a janela
+                window.setTimeout(function() { 
+                    fecharChatOnline();
+                }, 4000);
+            }
+            else
+            {
+                $('.alert-chat').html(obj.message);
+                $(".alert-chat").addClass("alert-danger");
+            }
+        }
+    });
+
+
+    var tel = telefone.val().replace(")", "").replace("(", "");
+    var arr = tel.split(" ");
+    var ddd = arr[0];
+    if (arr.length == 2)
+        tel = arr[1];
+    else if (arr.length == 3)
+        tel = arr[2];
+
+    var dados = "&nome=" + nome.val();
+    dados += "&email=" + email.val();
+    dados += "&ddd_residencial=" + ddd;
+    dados += "&tel_residencial=" + tel;
+
+    abrirChat(dados);
+}
+function abrirChat(dados)
+{
+	$("#exampleModal").modal('hide');
+     var width = 470;
+    var height = 550;
+    var left = 99;
+    var top = 99;
+    var URL = 'http://realton.hypnobox.com.br/?controle=Atendimento&acao=entrar&midia=Chat_HotSite&referencia=Direto&id_produto=405';
+    //var URL = 'http://realton.hypnobox.com.br/?controle=Atendimento&acao=index&produto=405&midia=Chat_HotSite'; 
+
+    //if (link != '')
+     //   URL = link;
+
+    
+    URL += dados;
+
+       window.open(URL, 'janela', 'width=' + width + ', height=' + height + ', top=' + top + ', left=' + left + ', scrollbars=no, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no');
+     
+}
+</script>
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script src="galeria/dist/js/lightgallery.js"></script>
+<script src="galeria/dist/js/lg-fullscreen.js"></script>
+<script src="galeria/dist/js/lg-thumbnail.js"></script>
+<script src="galeria/dist/js/lg-video.js"></script>
+<script src="galeria/dist/js/lg-autoplay.js"></script>
+<script src="galeria/dist/js/lg-zoom.js"></script>
+<script src="galeria/dist/js/lg-hash.js"></script>
+<script src="galeria/dist/js/lg-pager.js"></script>
+<script src="galeria/lib/jquery.mousewheel.min.js"></script>
+<link href="galeria/dist/css/lightgallery.css" rel="stylesheet"> 
+
+
+<!-- Código do Google para tag de remarketing -->
+<!--------------------------------------------------
+As tags de remarketing não podem ser associadas a informações pessoais de identificação nem inseridas em páginas relacionadas a categorias de confidencialidade. Veja mais informações e instruções sobre como configurar a tag em: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 860279081;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/860279081/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a326b37f4461b0b4ef88aa6/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TripGuard - Seguro Viagem</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.min.css?id=855474" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-96998935-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/592f1e06b3d02e11ecc67ac5/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</head>
+
+<body id="page-top">
+    <div class="bg-modal"></div>
+    <div class="box-modal">
+        <a class="fechar"></a>
+
+        <form class="form" name="disney" id="disney" method="post" enctype="multipart/form-data">
+
+            <h4>Informações</h4>
+            <img src="img/line3.png" width="90" alt="" />
+            <div class="input-group">
+                <input type="text" placeholder="Digite o seu nome" class="form-control focus-nome-modal" id="nome-modal" name="nome-modal" maxlength="80" />
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Digite o seu e-mail" class="form-control focus-email-modal" id="email-modal" name="email-modal" maxlength="80" />
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Digite o seu telefone" class="form-control focus-telefone-modal" id="telefone-modal" name="telefone-modal" maxlength="80" />
+            </div>
+
+            <div class="input-group">
+                <textarea placeholder="Digite a sua mensagem " class="form-control focus-mensagem-modal" id="mensagem-modal" name="mensagem-modal" rows="2"></textarea>
+            </div>
+
+            <div class="erro-modal"></div>
+
+            <button id="enviar-modal" type="button" class="btn btn-lg btn-primary btn-block enviar"></button>
+        </form>
+
+
+    </div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="menu">
+            <li class="linha1"></li>
+            <li class="icon-menu"></li>
+            <li class="linha2 off"></li>
+            <a href="#home" class="off page-scroll bollot boll"><i></i></a>
+            <a href="#tripguard" class="off page-scroll bollot1 boll"><i></i></a>
+            <a href="#viagem" class="off page-scroll bollot2 boll"><i></i></a>
+            <a href="#contato" class="off page-scroll bollot3 boll"><i></i></a>
+            <li class="bollot4 off"></li>
+            <li class="bollot5 off"></li>
+            <li class="bollot6 off"></li>
+            <li class="bollot7 off"></li>
+            <li class="bollot8 off"></li>
+        </div>
+    </nav>
+
+
+
+    <div class="container pacotes-viagem">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="primeiro-pacotes-viagem">
+                    <button type="button" class="icon-pacote-viagem botao-pacotes-viagem"></button>
+                    <div class="segundo-pacotes-viagem">
+                        <!--Botão fechar--><button type="button" class="fechar-pacotes-viagem" aria-label="Close"></button>
+                        <img src="img/line.png" class="center-block" width="69" height="16" alt="" />
+                        <h1>Confira nossos pacotes de viagens</h1>
+                        <div class="pacotes-viagem-pop-up">
+                            <div>
+                                <div class="informacoes-pacotes-viagem">
+                                    <img src="img/pacote-europa.jpg" class="img-responsive center-block">
+                                    <h2>Pacote Europa?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis porttitor nunca.</p>
+                                    <h3>A PARTIR DE</h3>
+                                    <h3><span>R$<b>2.500,</b>00</span></h3>
+                                    <button type="button" class="informacoes-pacotes-viagem-botao"></button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="informacoes-pacotes-viagem">
+                                    <img src="img/pacote-europa.jpg" class="img-responsive center-block">
+                                    <h2>Pacote Europa?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis porttitor nunca.</p>
+                                    <h3>A PARTIR DE</h3>
+                                    <h3><span>R$<b>2.500,</b>00</span></h3>
+                                    <button type="button" class="informacoes-pacotes-viagem-botao"></button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="informacoes-pacotes-viagem">
+                                    <img src="img/pacote-europa.jpg" class="img-responsive center-block">
+                                    <h2>Pacote Europa?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis porttitor nunca.</p>
+                                    <h3>A PARTIR DE</h3>
+                                    <h3><span>R$<b>2.500,</b>00</span></h3>
+                                    <button type="button" class="informacoes-pacotes-viagem-botao"></button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="informacoes-pacotes-viagem">
+                                    <img src="img/pacote-europa.jpg" class="img-responsive center-block">
+                                    <h2>Pacote Europa?</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis porttitor nunca.</p>
+                                    <h3>A PARTIR DE</h3>
+                                    <h3><span>R$<b>2.500,</b>00</span></h3>
+                                    <button type="button" class="informacoes-pacotes-viagem-botao"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terceiro-pacotes-viagem">
+                        <!--Botão voltar--><button type="button" class="terceiro-voltar-pacotes-viagem"></button>
+                        <!--Botão fechar--><button type="button" class="terceiro-fechar-pacotes-viagem" aria-label="Close"></button>
+                        <img src="img/line.png" class="center-block" width="69" height="16" alt="" />
+                        <h1>Compre seu pacote e economize em sua viagem</h1>
+                        <form id="form-pacotes-viagem">
+                            <div class="col-md-12">
+
+                                <div class="row sumir-campos">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-origem-pacotes"></div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Local de origem" id="origem">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-destino-pacotes"></div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Destino" id="destino">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row sumir-campos">
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-partida-pacotes">
+                                                <i class="icon-partida-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Data de partida" id="partida">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-partida-pacotes">
+                                                <i class="icon-volta-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Data de volta" id="volta">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-passageiros-pacotes">
+                                                <i class="icon-total-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Total de passageiros" id="total">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <button type="button" class="btn-cotar"></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row proximos-campos">
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-nome-pacotes">
+                                                <i class="icon-nome-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Nome Completo" id="nome">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-email-pacotes">
+                                                <i class="icon-email-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="E-mail" id="email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <div class="input-group-addon input-lg bg-icon-pacotes icon-telefone-pacotes">
+                                                <i class="icon-telefone-pacotes"></i>
+                                            </div>
+                                            <input type="text" class="input-lg form-control-viagem" data-mask="" placeholder="Telefone" id="telefone">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-3">
+                                        <div class="input-pacotes">
+                                            <button type="button" class="btn-cotar-dois" id="enviar"></button>
+                                        </div>
+                                    </div>
+
+                                    <!--Botão voltar--><button type="button" class="rever-dados"> </button>
+                                </div>
+
+                                <div class="erro"></div>
+
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="quarto-pacotes-viagem">
+                        <!--Botão voltar--><button type="button" class="quarto-voltar-pacotes-viagem"></button>
+                        <!--Botão fechar--><button type="button" class="quarto-fechar-pacotes-viagem" aria-label="Close"></button>
+                        <img src="img/line.png" class="center-block" width="69" height="16" alt="" />
+                        <h1>Obrigado por nos escolher para realizar sua viagem!</h1>
+                        <p align="center">Nosso agente de viagens está preparando os melhores pacotes com as suas informações</br> para que você faça uma incrível viagem!</p>
+                        <p align="center">Para mais informações fale com a gente: <b>0800-591-5107</b> ou <b>(11) 97137-1516</b>.</p>
+                        <p align="center">Aproveite para cotar seu seguro viagem aqui!</p>
+                        <a href="#viagem" class="page-scroll btn-conheca"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="home">
+        <div class="logo"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-offset-2">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Sua viagem começa aqui! </h1>
+                            <h3>Só na TripGuard você encontra<br> o seguro viagem ideal para todos os bolsos </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="tripguard">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-sm-8 col-md-7 col-lg-6 text-center text-center"><img src="img/foto.png" width="100%" alt="" /></div>
+                <div class="col-lg-6">
+                    <h3><img src="img/line.png" width="69" height="16" alt="" /><br>Proteção e segurança <br><b>para sua viagem</b></h3>
+                    <p>
+
+                        Com o seguro viagem da TripGuard, você pode comparar os preços e coberturas de várias seguradoras e optar pelo que melhor atende suas necessidades e ao que melhor se encaixa no seu planejamento. Os seguros viagem possuem as seguintes principais coberturas:
+                        <br> - Assistência médica <br> - Cobertura de doenças pré-existentes <br> - Interrupção de viagem <br> - Extravio de bagagem <br> - Atendimento odontológico <br> - Acompanhamento de menor <br>
+
+                    </p>
+                    <a href="#viagem" class="page-scroll" title="conheça os planos"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="viagem">
+        <div class="aviao"><img src="img/aviao.png" width="100%" alt="" /></div>
+        <div class="container text-center">
+            <div class="row">
+                <img src="img/line2.png" width="70" height="18" alt="" />
+                <h1>Contrate já seu seguro viagem de forma rápida, prática e segura! </h1>
+                <h4>Conheça nossas seguradoras </h4>
+                <div class="parceiros">
+                    <div>
+                        <div class="box">
+                            <div class="imagem"></div>
+                            <div class="seguradora"><img src="img/coris.jpg" width="100%" alt="" /></div>
+                            <a class="btn-conheca"></a>
+                            <div class="hove text-center">
+                                <h4>As melhores coberturas </h4>
+                                <center>
+                                    <p>Seguros com o mais alto nível de qualidade, eficiência e tecnologia em cada um dos planos de assistência viagem. </p>
+                                    <img src="img/line1.jpg" width="180" height="3" alt="" />
+                                    <img class="logo-seguro" src="img/corisguard.png" />
+                                </center>
+                                <a target="_blank" href="http://www.corisguard.com.br" class="btn-conheca" onClick="ga('send', 'event', 'CorisGuard', 'clique');"></a>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="box">
+                            <div class="imagem" style="background:url(img/viagem1.png) no-repeat center / cover;"></div>
+                            <div class="seguradora"><img src="img/sulamerica.jpg" width="100%" alt="" /></div>
+                            <a class="btn-conheca"></a>
+                            <div class="hove text-center">
+                                <h4>Viaje tranquilo e protegido </h4>
+                                <center>
+                                    <p>Garantia de tranquilidade e segurança do começo ao fim da viagem, sem aborrecimentos. </p>
+                                    <img src="img/line1.jpg" width="180" height="3" alt="" />
+                                    <img class="logo-seguro" src="img/seguro-certo.png" />
+                                </center>
+                                <a target="_blank" href="http://www.segurocerto.com" class="btn-conheca" onClick="ga('send', 'event', 'SeguroCerto', 'clique');"></a>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box">
+                            <div class="imagem" style="background:url(img/viagem2.png) no-repeat center / cover;"></div>
+                            <div class="seguradora"><img src="img/affinnity.jpg" width="100%" alt="" /></div>
+                            <a class="btn-conheca"></a>
+                            <div class="hove text-center">
+                                <h4>Assistência 24 horas </h4>
+                                <center>
+                                    <p>Qualidade, dedicação e eficiência na assistência viagem, equipe preparada para prestar o melhor atendimento. </p>
+                                    <img src="img/line1.jpg" width="180" height="3" alt="" />
+                                    <img class="logo-seguro" src="img/logo-naviagem.png" />
+                                </center>
+                                <a target="_blank" href="http://www.naviagem.com" class="btn-conheca" onClick="ga('send', 'event', 'NaViagem', 'clique');"></a>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box">
+                            <div class="imagem" style="background:url(img/viagem3.png) no-repeat center / cover;"></div>
+                            <div class="seguradora"><img src="img/mapfre.jpg" width="100%" alt="" /></div>
+                            <a class="btn-conheca"></a>
+                            <div class="hove text-center">
+                                <h4>Melhor custo/benefício </h4>
+                                <center>
+                                    <p>Longe ou perto, segurança e proteção garantida com o máximo de conforto e tranquilidade. </p>
+                                    <img src="img/line1.jpg" width="180" height="3" alt="" />
+                                    <img class="logo-seguro" src="img/assistencia.png" />
+                                </center>
+                                <a target="_blank" href="http://www.assistencianaviagem.com.br" class="btn-conheca" onClick="ga('send', 'event', 'AssistenciaNaViagem', 'clique');"></a>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/line.png" width="69" height="16" alt="" />
+                    <h2>entre em </h2>
+                    <h3>contato</h3>
+                    <p>Dúvidas, reclamações ou sugestões? Fale conosco!<br> Retornaremos o mais breve possível.</p>
+                    <form class="form" name="equipe" id="equipe" method="post" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <input type="text" placeholder="Digite o seu nome" class="form-control focus-nome" id="nome" name="nome" maxlength="80" />
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" placeholder="Digite o seu e-mail" class="form-control focus-email" id="email" name="email" maxlength="80" />
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" placeholder="Digite o seu telefone" class="form-control focus-telefone" id="telefone" name="telefone" maxlength="80" />
+                        </div>
+
+                        <div class="input-group">
+                            <textarea placeholder="Digite a sua mensagem " class="form-control focus-mensagem" id="mensagem" name="mensagem" rows="2"></textarea>
+                        </div>
+
+                        <div class="erro"></div>
+
+                        <button id="enviar" type="button" class="btn btn-lg btn-primary btn-block enviar"></button>
+                    </form>
+
+
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="col-lg-4"><img src="img/selo.png" class="selo" width="85" height="82" alt="" /></div>
+            <div class="col-lg-4">
+                <h4>Entre em contato</h4>
+                <h3><img src="img/telefone.png" width="49" height="43" alt="" /> 0800-591-5107</h3>
+            </div>
+            <div class="col-lg-4 rede-social">
+                <span>siga-nos nas redes sociais</span>
+                <div>
+                    <a href="https://www.facebook.com/grupotripguard/?fref=ts" target="_blank" class="facebook"></a>
+                    <a class="instagram"></a>
+                    <a class="whatsapp"></a>
+                </div>
+            </div>
+            <div class="col-lg-12" style="text-align: center; font-size: 10px; padding: 5px 0 10px 0;">© 2017 - TRIPGUARD AGENCIA DE VIAGENS E TURISMO - CNPJ: 13.225.630/0001-06. TODOS OS DIREITOS RESERVADOS.</div>
+        </div>
+        <div class="copy">Criação e desenvolvimento: <b><a target="_blank" href="http://www.agenciahauze.com.br">Agência Hauze</a> | <a target="_blank" href="http://www.homebrasil.com">Homebrasil</a></b></div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $(function() {
+            $(window).on("scroll", function() {
+                if ($(window).scrollTop() > 100) {
+                    $(".icon-pacote-viagem").addClass("icon-pacote-viagem-mobile");
+                } else {
+                    $(".icon-pacote-viagem").removeClass("icon-pacote-viagem-mobile");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        /*POP UP formulario cor */
+        $(document).ready(function() {
+            $(".form-control-viagem").focus(function() {
+                $(this).prev(".icon-origem-pacotes").css("background", "url('img/icon-origem-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-destino-pacotes").css("background", "url('img/icon-destino-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-partida-pacotes").css("background", "url('img/icon-partida-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-passageiros-pacotes").css("background", "url('img/icon-passageiros-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-nome-pacotes").css("background", "url('img/icon-nome-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-email-pacotes").css("background", "url('img/icon-email-pacotes-hover.png') no-repeat");
+                $(this).prev(".icon-telefone-pacotes").css("background", "url('img/icon-telefone-pacotes-hover.png') no-repeat");
+            });
+
+            $(".form-control-viagem").focusout(function() {
+                $(this).prev(".icon-origem-pacotes").css("background", "url('img/icon-origem-pacotes.png') no-repeat");
+                $(this).prev(".icon-destino-pacotes").css("background", "url('img/icon-destino-pacotes.png') no-repeat");
+                $(this).prev(".icon-partida-pacotes").css("background", "url('img/icon-partida-pacotes.png') no-repeat");
+                $(this).prev(".icon-passageiros-pacotes").css("background", "url('img/icon-passageiros-pacotes.png') no-repeat");
+                $(this).prev(".icon-nome-pacotes").css("background", "url('img/icon-nome-pacotes.png') no-repeat");
+                $(this).prev(".icon-email-pacotes").css("background", "url('img/icon-email-pacotes.png') no-repeat");
+                $(this).prev(".icon-telefone-pacotes").css("background", "url('img/icon-telefone-pacotes.png') no-repeat");
+            });
+
+            $('.terceiro-voltar-pacotes-viagem').click(function() {
+                $('.terceiro-pacotes-viagem').hide();
+                $('.segundo-pacotes-viagem').show();
+            });
+
+            $('.rever-dados').click(function() {
+                $('.proximos-campos').hide();
+                $('.sumir-campos').show();
+            });
+
+            $('.quarto-voltar-pacotes-viagem').click(function() {
+                $('.quarto-pacotes-viagem').hide();
+                $('.terceiro-pacotes-viagem').show();
+            });
+
+
+
+            $('.terceiro-fechar-pacotes-viagem').click(function() {
+                $('.quarto-pacotes-viagem').hide();
+                $('.terceiro-pacotes-viagem').hide();
+            });
+
+            $('.quarto-fechar-pacotes-viagem').click(function() {
+                $('.quarto-pacotes-viagem').hide();
+                $('.terceiro-pacotes-viagem').hide();
+            });
+
+            $('.btn-conheca').click(function() {
+                $('.modal-backdrop').hide();
+                $('.quarto-pacotes-viagem').hide();
+            });
+
+            $(".primeiro-pacotes-viagem").click(function() {
+                $('.primeiro-pacotes-viagem').toggleClass('active');
+            });
+
+            $(".botao-pacotes-viagem").click(function() {
+                $('.pacotes-viagem-pop-up').slick('resize');
+                // $('.primeiro-pacotes-viagem').toggleClass('active');
+            });
+
+            $('.informacoes-pacotes-viagem-botao').click(function() {
+                $('.terceiro-pacotes-viagem').show();
+                $('.sumir-campos').show();
+                $('.proximos-campos').hide();
+                $('.segundo-pacotes-viagem').hide();
+                $('.quarto-pacotes-viagem').hide();
+            });
+
+            $('.btn-cotar').click(function() {
+                $('.proximos-campos').show();
+                $('.sumir-campos').hide();
+                $('.quarto-pacotes-viagem').hide();
+            });
+
+            $('.btn-cotar-dois').click(function() {
+                $('.quarto-pacotes-viagem').show();
+                $('.terceiro-pacotes-viagem').hide();
+            });
+
+            $('.pacotes-viagem-pop-up').slick({
+                dots: true,
+                infinite: false,
+                arrows: false,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [{
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    }
+                }, {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+
+            $('.parceiros').slick({
+                dots: true,
+                infinite: false,
+                arrows: false,
+                speed: 300,
+                adaptiveHeight: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('.bollot4').click(function() {
+                $('.box-modal').show();
+                $('.bg-modal').show();
+            });
+
+
+            $('.fechar').click(function() {
+                $('.box-modal').hide();
+                $('.bg-modal').hide();
+            });
+
+
+            $('.icon-menu').click(function() {
+                if ($(".off").css("opacity") === "1") {
+                    $(".off").css({
+                        "opacity": "0"
+                    });
+                }
+
+                if ($(".off").css("opacity") === "0") {
+                    $(".off").css({
+                        "opacity": "1"
+                    });
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+
+            var status_telefone = false;
+            var status_email = false;
+            var status_nome = false;
+            var status_mensagem = false;
+
+
+            $(".focus-nome").css('background', "#ffffff");
+            $(".focus-nome").css('border-color', "#f7c61b");
+            $("#nome").blur(function() {
+                var nome = $("#nome").val();
+                if (nome == "") {
+                    $(".focus-nome").css('background', "#FFF");
+                    $(".focus-nome").css('border-color', "#de0936");
+                    $("#nome").css('border-color', "#de0936");
+                    status_nome = false;
+                    libera();
+                } else {
+                    $(".focus-nome").css('background', "#fff");
+                    $(".focus-nome").css('border-color', "#ccc");
+                    $("#nome").css('border-color', "#ccc");
+                    status_nome = true;
+                    libera();
+                }
+            });
+
+            $("#email").blur(function() {
+                var email = $("#email").val();
+                if (email == "") {
+                    $(".focus-email").css('background', "#FFF");
+                    $(".focus-email").css('border-color', "#de0936");
+                    $("#email").css('border-color', "#de0936");
+                    status_email = false;
+                    libera();
+                } else {
+                    $(".focus-email").css('background', "#fff");
+                    $(".focus-email").css('border-color', "#ccc");
+                    $("#email").css('border-color', "#ccc");
+                    status_email = true;
+                    libera();
+                }
+
+                if (email != "") {
+                    var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    if (filtro.test(email)) {
+                        $(".focus-email").css('background', "#fff");
+                        $(".focus-email").css('border-color', "#ccc");
+                        $("#email").css('border-color', "#ccc");
+                        status_email = true;
+                        libera();
+                        return true;
+                    } else {
+                        $(".focus-email").css('background', "#FFF");
+                        $(".focus-email").css('border-color', "#de0936");
+                        $("#email").css('border-color', "#de0936");
+                        status_email = false;
+                        libera();
+                        return false;
+                    }
+                }
+
+            });
+
+
+            $("#telefone").blur(function() {
+                var telefone = $("#telefone").val();
+                if (telefone == "") {
+                    $(".focus-telefone").css('background', "#FFF");
+                    $(".focus-telefone").css('border-color', "#de0936");
+                    $("#telefone").css('border-color', "#de0936");
+                    status_telefone = false;
+                    libera();
+                } else {
+                    $(".focus-telefone").css('background', "#fff");
+                    $(".focus-telefone").css('border-color', "#ccc");
+                    $("#telefone").css('border-color', "#ccc");
+                    status_telefone = true;
+                    libera();
+                }
+
+            });
+
+
+            $("#mensagem").blur(function() {
+                var telefone = $("#mensagem").val();
+                if (telefone == "") {
+                    $(".focus-mensagem").css('background', "#FFF");
+                    $(".focus-mensagem").css('border-color', "#de0936");
+                    $("#mensagem").css('border-color', "#de0936");
+                    status_mensagem = false;
+                    libera();
+                } else {
+                    $(".focus-mensagem").css('background', "#fff");
+                    $(".focus-mensagem").css('border-color', "#ccc");
+                    $("#mensagem").css('border-color', "#ccc");
+                    status_mensagem = true;
+                    libera();
+                }
+
+            });
+
+
+            function libera() {
+                if (status_telefone == true && status_email == true && status_nome == true && status_endereco == true) {
+                    //$(".enviar").removeAttr("disabled", "disabled");
+                } else {
+                    //$(".enviar").attr("disabled", "disabled");
+                }
+            }
+
+            $("#enviar").click(function() {
+                var nome = $("#nome");
+                var nomePost = nome.val();
+                var email = $("#email");
+                var emailPost = email.val();
+                var telefone = $("#telefone");
+                var telefonePost = telefone.val();
+                var mensagem = $("#mensagem");
+                var mensagemPost = mensagem.val();
+
+                if (nomePost == "") {
+                    $(".focus-nome").css('background', "#FFF");
+                    $(".focus-nome").css('border-color', "#de0936");
+                    $("#nome").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-nome").css('background', "#FFF");
+                    $(".focus-nome").css('border-color', "#ccc");
+                    $("#nome").css('border-color', "#ccc");
+                }
+
+
+                if (emailPost == "") {
+                    $(".focus-email").css('background', "#FFF");
+                    $(".focus-email").css('border-color', "#de0936");
+                    $("#email").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-email").css('background', "#FFF");
+                    $(".focus-email").css('border-color', "#ccc");
+                    $("#email").css('border-color', "#ccc");
+                }
+
+                if (emailPost != "") {
+                    var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    if (filtro.test(emailPost)) {
+                        $(".focus-email").css('background', "#fff");
+                        $(".focus-email").css('border-color', "#ccc");
+                        $("#email").css('border-color', "#ccc");
+                    } else {
+                        $(".focus-email").css('background', "#fff");
+                        $(".focus-email").css('border-color', "#de0936");
+                        $("#email").css('border-color', "#de0936");
+                    }
+                }
+
+
+                if (telefonePost == "") {
+                    $(".focus-telefone").css('background', "#FFF");
+                    $(".focus-telefone").css('border-color', "#de0936");
+                    $("#telefone").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-telefone").css('background', "#FFF");
+                    $(".focus-telefone").css('border-color', "#ccc");
+                    $("#telefone").css('border-color', "#ccc");
+                }
+
+                if (mensagemPost == "") {
+                    $(".focus-mensagem").css('background', "#FFF");
+                    $(".focus-mensagem").css('border-color', "#de0936");
+                    $("#mensagem").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-mensagem").css('background', "#FFF");
+                    $(".focus-mensagem").css('border-color', "#ccc");
+                    $("#mensagem").css('border-color', "#ccc");
+                }
+
+                $(".erro").removeClass('alert-danger');
+                $(".erro").removeClass('alert-success');
+
+                $(".erro").addClass('alert-success');
+                $(".erro").html("Carregando...");
+
+
+                $(".erro").html("Carregando...");
+                $.post("envia-form.php", {
+                        nome: nomePost,
+                        email: emailPost,
+                        telefone: telefonePost,
+                        msg: mensagemPost
+                    },
+
+                    function(resposta) {
+                        $(".erro").removeClass('alert-danger');
+
+                        if (resposta == "E-mail enviado com sucesso!") {
+                            $(".erro").html(resposta);
+                            $(".erro").addClass('alert-success');
+                        } else {
+                            $(".erro").html(resposta);
+                            $(".erro").addClass('alert-danger');
+                        }
+
+                        setTimeout(function() {
+
+                            $("#nome").val("");
+                            $("#email").val("");
+                            $("#telefone").val("");
+                            $("#mensagem").val("");
+
+                        }, 3000);
+
+                    }, "html");
+
+            });
+
+
+
+            var status_telefone_modal = false;
+            var status_email_modal = false;
+            var status_nome_modal = false;
+            var status_mensagem_modal = false;
+
+
+            $(".focus-nome-modal").css('background', "#ffffff");
+            $(".focus-nome-modal").css('border-color', "#f7c61b");
+            $("#nome-modal").blur(function() {
+                var nome_modal = $("#nome-modal").val();
+                if (nome_modal == "") {
+                    $(".focus-nome-modal").css('background', "#FFF");
+                    $(".focus-nome-modal").css('border-color', "#de0936");
+                    $("#nome-modal").css('border-color', "#de0936");
+                    status_nome_modal = false;
+                    libera();
+                } else {
+                    $(".focus-nome-modal").css('background', "#fff");
+                    $(".focus-nome-modal").css('border-color', "#ccc");
+                    $("#nome-modal").css('border-color', "#ccc");
+                    status_nome_modal = true;
+                    libera();
+                }
+            });
+
+            $("#email-modal").blur(function() {
+                var email_modal = $("#email-modal").val();
+                if (email_modal == "") {
+                    $(".focus-email-modal").css('background', "#FFF");
+                    $(".focus-email-modal").css('border-color', "#de0936");
+                    $("#email-modal").css('border-color', "#de0936");
+                    status_email_modal = false;
+                    libera();
+                } else {
+                    $(".focus-email-modal").css('background', "#fff");
+                    $(".focus-email-modal").css('border-color', "#ccc");
+                    $("#email-modal").css('border-color', "#ccc");
+                    status_email_modal = true;
+                    libera();
+                }
+
+                if (email_modal != "") {
+                    var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    if (filtro.test(email_modal)) {
+                        $(".focus-email-modal").css('background', "#fff");
+                        $(".focus-email-modal").css('border-color', "#ccc");
+                        $("#email-modal").css('border-color', "#ccc");
+                        status_email_modal = true;
+                        libera();
+                        return true;
+                    } else {
+                        $(".focus-email-modal").css('background', "#FFF");
+                        $(".focus-email-modal").css('border-color', "#de0936");
+                        $("#email-modal").css('border-color', "#de0936");
+                        status_email_modal = false;
+                        libera();
+                        return false;
+                    }
+                }
+
+            });
+
+
+            $("#telefone-modal").blur(function() {
+                var telefone_modal = $("#telefone-modal").val();
+                if (telefone_modal == "") {
+                    $(".focus-telefone-modal").css('background', "#FFF");
+                    $(".focus-telefone-modal").css('border-color', "#de0936");
+                    $("#telefone-modal").css('border-color', "#de0936");
+                    status_telefone_modal = false;
+                    libera();
+                } else {
+                    $(".focus-telefone-modal").css('background', "#fff");
+                    $(".focus-telefone-modal").css('border-color', "#ccc");
+                    $("#telefone-modal").css('border-color', "#ccc");
+                    status_telefone_modal = true;
+                    libera();
+                }
+
+            });
+
+
+            $("#mensagem-modal").blur(function() {
+                var telefone_modal = $("#mensagem-modal").val();
+                if (telefone_modal == "") {
+                    $(".focus-mensagem-modal").css('background', "#FFF");
+                    $(".focus-mensagem-modal").css('border-color', "#de0936");
+                    $("#mensagem-modal").css('border-color', "#de0936");
+                    status_mensagem_modal = false;
+                    libera();
+                } else {
+                    $(".focus-mensagem-modal").css('background', "#fff");
+                    $(".focus-mensagem-modal").css('border-color', "#ccc");
+                    $("#mensagem-modal").css('border-color', "#ccc");
+                    status_mensagem_modal = true;
+                    libera();
+                }
+
+            });
+
+
+            function libera() {
+                if (status_telefone == true && status_email == true && status_nome == true && status_endereco == true) {
+                    //$(".enviar").removeAttr("disabled", "disabled");
+                } else {
+                    //$(".enviar").attr("disabled", "disabled");
+                }
+            }
+
+            $("#enviar-modal").click(function() {
+                var nome = $("#nome-modal");
+                var nomePost = nome.val();
+                var email = $("#email-modal");
+                var emailPost = email.val();
+                var telefone = $("#telefone-modal");
+                var telefonePost = telefone.val();
+                var mensagem = $("#mensagem-modal");
+                var mensagemPost = mensagem.val();
+
+                if (nomePost == "") {
+                    $(".focus-nome-modal").css('background', "#FFF");
+                    $(".focus-nome-modal").css('border-color', "#de0936");
+                    $("#nome-modal").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-nome-modal").css('background', "#FFF");
+                    $(".focus-nome-modal").css('border-color', "#ccc");
+                    $("#nome-modal").css('border-color', "#ccc");
+                }
+
+
+                if (emailPost == "") {
+                    $(".focus-email-modal").css('background', "#FFF");
+                    $(".focus-email-modal").css('border-color', "#de0936");
+                    $("#email-modal").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-email-modal").css('background', "#FFF");
+                    $(".focus-email-modal").css('border-color', "#ccc");
+                    $("#email-modal").css('border-color', "#ccc");
+                }
+
+                if (emailPost != "") {
+                    var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    if (filtro.test(emailPost)) {
+                        $(".focus-email-modal").css('background', "#fff");
+                        $(".focus-email-modal").css('border-color', "#ccc");
+                        $("#email-modal").css('border-color', "#ccc");
+                    } else {
+                        $(".focus-email-modal").css('background', "#fff");
+                        $(".focus-email-modal").css('border-color', "#de0936");
+                        $("#email-modal").css('border-color', "#de0936");
+                    }
+                }
+
+
+                if (telefonePost == "") {
+                    $(".focus-telefone-modal").css('background', "#FFF");
+                    $(".focus-telefone-modal").css('border-color', "#de0936");
+                    $("#telefone-modal").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-telefone-modal").css('background', "#FFF");
+                    $(".focus-telefone-modal").css('border-color', "#ccc");
+                    $("#telefone-modal").css('border-color', "#ccc");
+                }
+
+                if (mensagemPost == "") {
+                    $(".focus-mensagem-modal").css('background', "#FFF");
+                    $(".focus-mensagem-modal").css('border-color', "#de0936");
+                    $("#mensagem-modal").css('border-color', "#de0936");
+                    return false;
+                } else {
+                    $(".focus-mensagem-modal").css('background', "#FFF");
+                    $(".focus-mensagem-modal").css('border-color', "#ccc");
+                    $("#mensagem-modal").css('border-color', "#ccc");
+                }
+
+                $(".erro-modal").removeClass('alert-danger');
+                $(".erro-modal").removeClass('alert-success');
+
+                $(".erro-modal").addClass('alert-success');
+                $(".erro-modal").html("Carregando...");
+
+
+                $(".erro-modal").html("Carregando...");
+                $.post("envia-form-modal.php", {
+                        nome: nomePost,
+                        email: emailPost,
+                        telefone: telefonePost,
+                        msg: mensagemPost
+                    },
+
+                    function(resposta) {
+                        $(".erro-modal").removeClass('alert-danger');
+
+                        if (resposta == "E-mail enviado com sucesso!") {
+                            $(".erro-modal").html(resposta);
+                            $(".erro-modal").addClass('alert-success');
+                        } else {
+                            $(".erro-modal").html(resposta);
+                            $(".erro-modal").addClass('alert-danger');
+                        }
+
+                        setTimeout(function() {
+
+                            $("#nome-modal").val("");
+                            $("#email-modal").val("");
+                            $("#telefone-modal").val("");
+                            $("#mensagem-modal").val("");
+
+                        }, 3000);
+
+                    }, "html");
+
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

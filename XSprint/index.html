@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Xsprint Service Experience</title>
+
+	<link href="content/css/bootstrap.css" rel="stylesheet">
+	<link href="content/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="content/css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link rel="stylesheet" href="content/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$("#enviar").click(function () {
+
+				var nome = $("#nome");
+				var nomePost = nome.val();
+
+				var email = $("#email");
+				var emailPost = email.val();
+
+				$("#enviar").attr("disabled", "disabled");
+				$.ajax({
+					url: 'enviar.php',
+					type: 'POST',
+					data: {
+						nome: nomePost,
+						email: emailPost,
+					},
+					success: function (retorno) {
+
+						if (retorno == "nome") {
+							$("#nome").css("border", "1px solid red");
+							$("#enviar").removeAttr("disabled");
+							return false;
+						}
+						else {
+							$("#nome").css("border", "1px solid #8d99ab");
+						}
+
+						if (retorno == "email") {
+							$("#email").css("border", "1px solid red");
+							$("#enviar").removeAttr("disabled");
+							return false;
+						}
+						else {
+							$("#email").css("border", "1px solid #8d99ab");
+							alert(retorno);
+							setTimeout(function () { $("#enviar").removeAttr("disabled"); }, 2000);
+						}
+					}
+				});
+				return false;
+			});
+
+		});
+
+	</script>
+</head>
+
+<body class="fundo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="content/img/logo.png" class="center-block logo">
+				<h1 align="center">ESTÁ CHEGANDO<br> UMA NOVA EXPERIÊNCIA.</h1>
+				<div class="dropdown">
+					<button class="btn btn-outline btn-lg" type="button" data-toggle="dropdown">FIQUE POR DENTRO!</button>
+					<div class="dropdown-menu col-xs-12 col-sm-12 col-md-4">
+						<i href="#" class="seta-cima"></i>
+						<h2>PREENCHA POR EMAIL</h2>
+						<form id="form-container">
+
+							<div id="searchtext">
+								<input type="text" size="40" class="search-input col-md-12" id="nome" value="" name="s" id="s" placeholder="Nome">
+							</div>
+
+							<div id="searchtext">
+								<input type="text" size="40" class="search-input col-md-10" id="email" value="" name="s" id="s" placeholder="seunome@exemplo.com.br">
+
+								<button class="search-submit-button col-md-2" type="submit" id="enviar">
+									<i class="fa fa-check" aria-hidden="true"></i>
+								</button>
+
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script>
+		$(document).ready(function () {
+			$('[data-toggle="popover"]').popover();
+		});
+	</script>
+
+</body>
+
+</html>
